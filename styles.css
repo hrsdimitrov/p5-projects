@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.banner {
+    background-color: #e63946;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.projects-wrapper {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+}
+
+.projects-wrapper a {
+    text-decoration: none;
+}
+
+.project-card {
+    border-radius: 12px;
+    background-color: #e63946;
+    padding: 12px;
+    text-align: center;
+}
+
+.project-card:hover {
+   transform: scale(1.01);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+
+
+.project-card p {
+    color: white;
+    font-size: 22px;
+}
